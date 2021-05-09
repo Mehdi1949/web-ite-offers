@@ -46,4 +46,9 @@
 .myfooter h3,ul,p{
    margin-bottom:5px;
    font-family:Myfont2;
+  
+}
+.logo-size {
+   width:120px;
+   height:62px;
 }
