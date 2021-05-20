@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-whith, initial scale=1"/>
+    <meta name="viewport" content="width=device-whith, initial scale=1" />
     <title>@Page.Title</title>
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <link href="~/Content/Style.css" rel="stylesheet" />
@@ -18,7 +18,11 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="#" class="navbar-brand">
-                    <img src="~/Images/Logo.png" class="logo-size"/>
+                    <img src="~/Images/Logo.png"  style=" height: 40px;
+                      width: auto;
+                      margin: 0 auto;
+                      top: 0;
+                      background-color: #5bc0de; " />
                 </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -76,58 +80,60 @@
     @RenderBody()
 
     <!--footer-->
-    <footer class="navbar navbar-fixed-bottom myfooter" >
+    <footer class="navbar navbar-fixed-bottom myfooter">
         <div class="container">
-            
+
             <div class="row">
                 <div class="col-md-4">
-                    <h3>                   
+                    <h3>
                         من نحن ؟
                     </h3>
                     <p>
                         سلام عليكم ورحمة الله تعالى وبركاته تم تصميم هذا الموقع  للسماح لأصحاب العمل بنشر متطلبات الوظيفة لشغل منصب .من خلال موقع التوظيف، يمكن للموظف المحتمل إختيار وظيفة وملء طلب توظيف أو تقديم السير الذاتية عبر الإنترنت للوظيفة المعلن عنها.
                     </p>
-                </div>  
-                    <div class="col-md-4">
-                        <h3>
-                            <i class="glyphicon glyphicon-link"></i>
-                            روابط هامة
-                        </h3>
-                        <ul>
-                            <li><a href="#">وظائف القطاع العام</a></li>
-                            <li><a href="#">وظائف القطاع الخاص </a></li>
-                            <li><a href="#">وظائف خارج البلاد</a></li>
-                            <li><a href="#">وظائف متنوعة</a></li>
-                        </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>
+                        <i class="glyphicon glyphicon-link"></i>
+                        روابط هامة
+                    </h3>
+                    <ul>
+                        <li><a href="#">وظائف القطاع العام</a></li>
+                        <li><a href="#">وظائف القطاع الخاص </a></li>
+                        <li><a href="#">وظائف خارج البلاد</a></li>
+                        <li><a href="#">وظائف متنوعة</a></li>
+                    </ul>
 
-                    </div>
-                    <div class="col-md-4">
-                        <h3>
-                            <i class="glyphicon glyphicon-phone"></i>
-                                        
-                            تواصل معنا
+                </div>
+                <div class="col-md-4">
+                    <h3>
+                        <i class="glyphicon glyphicon-phone"></i>
 
-                        </h3>
-                        <ul>
-                            <li><a href="#">صفحاتنا على فيسبوك</a></li>
-                            <li><a href="#">تابعنا على تويتر  </a></li>
-                            <li><a href="#">شاهدنا على يوتيوب </a></li>
-                            <li><a href="#">أترك لنا رسالة</a></li>
-                        </ul>
+                        تواصل معنا
 
-                    </div>
+                    </h3>
+                    <ul>
+                        <li><a href="#">صفحاتنا على فيسبوك</a></li>
+                        <li><a href="#">تابعنا على تويتر  </a></li>
+                        <li><a href="#">شاهدنا على يوتيوب </a></li>
+                        <li><a href="#">أترك لنا رسالة</a></li>
+                    </ul>
+
+                </div>
 
 
 
-                
-        </div>
+
+            </div>
             <div class="subfooter">
                 <span>جميع الحقوق محفوظة لموقع التوظيف - 2021 </span>
             </div>
     </footer>
 
 
+
     <script src="~/Scripts/jquery.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
 </body>
 </html>
+
